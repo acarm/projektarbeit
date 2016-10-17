@@ -8,6 +8,7 @@ class User
     public $SamAccountName;
     public $passwordHash;
     public $grouplist;
+ //test
 
     public static function FromDatabase($id)
     {
